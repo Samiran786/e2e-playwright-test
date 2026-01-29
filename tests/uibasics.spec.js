@@ -15,8 +15,6 @@ test('First Playwright test',async ({browser})=>{
 
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
 
-    await context.close();
-    await browser.close();
 });
 
 /* 
