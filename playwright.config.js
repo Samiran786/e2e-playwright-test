@@ -11,7 +11,8 @@ const config = ({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    browserName : 'chromium'
+    browserName : 'chromium',
+    headless: false
   },
 
   // /* Configure projects for major browsers */
