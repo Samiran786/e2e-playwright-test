@@ -13,6 +13,7 @@ const config = ({
   use: {
     browserName : 'chromium',
     // headless: false
+    channel: 'chrome',       // This forces Playwright to use Google Chrome
   },
 
   // /* Configure projects for major browsers */
